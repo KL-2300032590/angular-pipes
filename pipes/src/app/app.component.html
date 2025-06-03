@@ -1,0 +1,19 @@
+<router-outlet></router-outlet>
+
+ <!-- <h1>{{ title | capitalize }}</h1> -->
+<!-- 
+<p>{{price | currencyFormat}}</p>
+<p>{{price | currencyFormat:'₹':0}}</p>
+
+<p>{{today | dateFormat}}</p>
+<p>{{today | dateFormat : 'fullDate'}}</p>
+<p>{{today | dateFormat: 'time'}}</p> -->
+
+<a href="#"
+   (click)="handleClick($event)"
+   [ngStyle]="{ color: isClicked | linkColor }">
+   Click Me
+</a>
+
+<app-student-list></app-student-list>
+

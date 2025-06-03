@@ -1,0 +1,21 @@
+<h1>Student Component Works here!</h1>
+<div>
+    <h2>Student List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Section</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let student of students">
+          <td>{{ student.id }}</td>
+          <td>{{ student.name }}</td>
+          <td>{{ student.section }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
